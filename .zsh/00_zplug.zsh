@@ -31,14 +31,14 @@ zplug "rupa/z", use:z.sh
 
 
 # Theme
-# zplug "themes/agnoster", from:oh-my-zsh, as:theme
 #TODO move theme config somehwere else
+# Modified https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config#v1rguls-configuration
 POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_DISABLE_RPROMPT=true
 POWERLEVEL9K_FOLDER_ICON=''
 POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
-POWERLEVEL9K_HOME_SUB_ICON='$(print_icon "HOME_ICON")'
-POWERLEVEL9K_DIR_PATH_SEPARATOR=' $(print_icon "LEFT_SUBSEGMENT_SEPARATOR") '
+POWERLEVEL9K_HOME_SUB_ICON=''
+POWERLEVEL9K_DIR_PATH_SEPARATOR='  '
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context dir dir_writable vcs)
 POWERLEVEL9K_STATUS_VERBOSE=false
 
