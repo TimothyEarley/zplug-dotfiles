@@ -1,0 +1,21 @@
+# dir
+SPACESHIP_DIR_LOCK_SYMBOL=" "
+#SPACESHIP_DIR_COLOR="039"
+SPACESHIP_DIR_COLOR="040"
+
+# time
+SPACESHIP_EXEC_TIME_ELAPSED=300
+
+# venv
+SPACESHIP_VENV_PREFIX=""
+SPACESHIP_VENV_SYMBOL=" "
+SPACESHIP_VENV_COLOR="086"
+SPACESHIP_VENV_GENERIC_NAMES=()
+
+# dropbox
+SPACESHIP_DROPBOX_COLOR="038"
+
+# git
+SPACESHIP_GIT_STATUS_STASHED=" "
+
+zplug TimothyEarley/spaceship-prompt, use:spaceship.zsh, from:github, as:theme, at:dropbox

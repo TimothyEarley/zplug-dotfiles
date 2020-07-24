@@ -2,12 +2,7 @@
 Configuration for my zplug setup
 
 ## Installing
-Just source the `00_zplug.zsh` file (in my config everything in .zsh in sourced
-automatically)
-
-The theme is [powerlevel9k](https://github.com/bhilburn/powerlevel9k), so I
-installed
-[awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts).
+Just source the `00_zplug.zsh` file (in my config everything in .zsh is sourced automatically)
 
 ## Content
 
