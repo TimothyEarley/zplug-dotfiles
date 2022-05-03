@@ -36,6 +36,7 @@ zplug "plugins/pip", from:oh-my-zsh
 zplug "plugins/kubectl", from:oh-my-zsh
 zplug "plugins/helm", from:oh-my-zsh
 zplug "plugins/terraform", from:oh-my-zsh
+zplug "plugins/dotenv", from:oh-my-zsh
 
 # third party oh-my-zsh plugins
 zplug 'RobertDeRose/virtualenv-autodetect', as:plugin # really slow
